@@ -7,4 +7,9 @@ public class SampleTest extends BaseTest {
     void test01() {
         System.out.println(driver.getTitle());
     }
+
+    @Test
+    void test02() {
+        System.out.println(driver.getTitle());
+    }
 }
