@@ -22,7 +22,6 @@ public class BaseTest {
             e.printStackTrace();
         }
 
-        System.out.println(prop.getProperty("browser"));
         driver = BrowserFactory.launchApp(prop.getProperty("browserType"), prop.getProperty("url"));
     }
 
